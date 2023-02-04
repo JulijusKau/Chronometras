@@ -1,0 +1,56 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body h1 {
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+
+#main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+#main-div h3 {
+  font-size: 40px;
+  margin: 0;
+}
+
+#main-clock {
+  font-size: 50px;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+#menu button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+}
+
+#start-stop {
+  background-color: green;
+}
+
+.record {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: olivedrab;
+}
+
+.last-record {
+  font-size: 30px;
+  padding: 10px;
+  margin: 10px;
+  background-color: olivedrab;
+}
